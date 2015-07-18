@@ -14,3 +14,7 @@
 .hand {
   overflow: auto;
 }
+
+.game-result {
+  margin: 5px;
+}
