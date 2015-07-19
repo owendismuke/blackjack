@@ -1,14 +1,21 @@
 .card {
   float: left;
   border: solid 1px black;
-  width: 100px;
+  width: 125px;
   border-radius: 5px;
-  height: 140px;
+  height: 181px;
   margin-right: 20px;
+  background-size: contain;
 }
 
 .covered {
-  background-color: black;
+  background-color: #6d695c;
+  background-image:
+    repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+    linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+    linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 30px 41px;
 }
 
 .hand {
